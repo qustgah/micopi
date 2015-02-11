@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".MainActivity" >
+   
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_description" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+    <View android:layout_height="5dp"
+        android:id="@+id/lines"
+         android:background="#000000" 
+        android:layout_width="fill_parent" 
+        android:layout_below="@id/iconImageView"></View>
+    <LinearLayout  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_below="@id/lines"
+    android:background="#DCDCDC" >
+    <GridView
+        android:id="@+id/grid_sys_pics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchMode="columnWidth" 
+        android:horizontalSpacing="1dip"
+        android:verticalSpacing="1dp"  
+        android:paddingBottom="53dp"
+        
+        android:numColumns="3" >
+    </GridView> 
+    </LinearLayout>
+    <!-- <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconImageView">
+
+        <com.ijiaban.wedgits.pagertab.PagerSlidingTabStrip
+            android:id="@+id/maintabs"
+            android:layout_width="match_parent"
+            android:layout_height="34dip"
+            android:background="@drawable/background_tab" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maintabs" /> 
+        
+    </RelativeLayout>  -->
+   	<LinearLayout
+            android:id="@+id/adlayoutmainfragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+        </LinearLayout> 
+</RelativeLayout>

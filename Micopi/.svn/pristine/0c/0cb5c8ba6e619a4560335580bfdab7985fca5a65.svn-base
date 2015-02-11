@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ijiaban.yinxiang.WelcomeActivity"
+    android:background="@color/primary">
+
+    <RelativeLayout
+        android:id="@+id/welcomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:layout_above="@+id/firstButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/micopi_logo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="@string/contact_button_label"
+            android:id="@+id/firstButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="startMainActivity"
+            android:background="@android:color/white"
+            android:textColor="@color/primary"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/introduction_text"
+            android:id="@+id/textView"
+            android:layout_below="@+id/firstButton"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"/>
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="@string/crawl_button_label"-->
+            <!--android:id="@+id/crawlButton"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:onClick="startCrawl"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:textColor="@color/primary"-->
+            <!--android:layout_marginTop="@dimen/activity_vertical_margin"-->
+            <!--android:layout_below="@+id/textView"-->
+            <!--android:layout_height="48dp" />-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

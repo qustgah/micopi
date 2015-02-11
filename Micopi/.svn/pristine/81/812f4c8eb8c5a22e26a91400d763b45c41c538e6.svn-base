@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Copyright (C) 2014 Easy Target-->
+
+<!--Licensed under the Apache License, Version 2.0 (the "License");-->
+<!--you may not use this file except in compliance with the License.-->
+<!--You may obtain a copy of the License at-->
+
+<!--http://www.apache.org/licenses/LICENSE-2.0.txt-->
+
+<!--Unless required by applicable law or agreed to in writing, software-->
+<!--distributed under the License is distributed on an "AS IS" BASIS,-->
+<!--WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.-->
+<!--See the License for the specific language governing permissions and-->
+<!--limitations under the License.-->
+
+<resources>
+
+    <string name="app_name">Micopi</string>
+    <string name="ad_unit_id">ca-app-pub-4224141881686186/5385253358</string>
+    <!-- <string name="introduction_text">
+        After selecting a contact, the ge nerated picture will be previewed
+        before assigning it to that person. 
+    </string> -->
+    <string name="introduction_text">
+        选择一个联系人 后，您可以为这个联系人选择合适的头像
+    </string>
+    <string name="no_contact_selected">没有可选择的联系人</string>
+    <string name="image_description">联系人头像</string>
+    <string name="contact_button_label">请选择一个联系人</string>
+    <!--<string name="crawl_button_label">Generate all contact pictures</string>-->
+    <string name="save_button_label">图片另存为</string>
+    <string name="assign_button_label">赋予联系人</string>
+    <string name="overwrite_dialog">你确定给联系人换头像 %s?</string>
+    <string name="report_button_label">反馈</string>
+    <string name="success_applying_image">%s 应用新头像成功.</string>
+    <string name="success_saving_image">保存联系人头像为 %s.</string>
+    <string name="error_generating">
+        生成图像时出错</string>
+    <string name="error_retrieving" >检索联系人信息时出错</string>
+    <string name="error_saving">
+        在尝试这种图像保存为您的设备上的文件时发生错误。
+        请确保您的存储没有锁定。</string>
+    <string name="error_assign">应用新头像时发生错误.</string> 
+
+    <string name="impression">印象</string>
+
+    <string name="pic_contentdescription">未加载图片</string>
+    
+    <string name="Animal">可爱萌宠</string>
+    <string name="Cartoon">卡通动漫</string>
+    
+    <string name="Love">唯美爱情</string>
+    <string name="Music">音乐达人</string>
+    <string name="Sports">运动健将</string>
+    
+    <string name="Business">成功人士</string>
+    <string name="Cars">有车一族</string>
+    <string name="Dishes">吃货世界</string> 
+     <string name="Local">本地图片</string>
+
+
+</resources>
